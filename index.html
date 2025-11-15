@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tata Punch - Compact SUV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+<header>
+  <div class="logo">TATA PUNCH</div>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#specs">Specs</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#test-drive">Test Drive</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <h1>Meet the All-New Tata Punch</h1>
+    <p>Compact. Powerful. Built for the Urban Explorer.</p>
+    <div class="hero-buttons">
+      <button class="primary-btn" onclick="document.getElementById('test-drive').scrollIntoView({behavior:'smooth'});">Book a Test Drive</button>
+      <button class="secondary-btn" onclick="document.getElementById('specs').scrollIntoView({behavior:'smooth'});">View Specs</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- HIGHLIGHTS -->
+<section class="highlights">
+  <h2>Highlights</h2>
+  <div class="highlight-grid">
+    <div class="highlight-item">
+      <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425702890/dashboard-59.jpg?tr=w-420" alt="Steering">
+      <p>Premium Steering Design</p>
+    </div>
+    <div class="highlight-item">
+      <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425702890/front-seats-(passenger-view)-88.jpg?tr=w-420" alt="Seats">
+      <p>Comfortable Dual-Tone Interiors</p>
+    </div>
+    <div class="highlight-item">
+      <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425811507/seat-headrest-200.jpg?tr=w-420" alt="Side View">
+      <p>Sporty and Dynamic Profile</p>
+    </div>
+  </div>
+</section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="feature">
+      <h3>Bold Design</h3>
+      <p>Muscular stance, signature grille, and LED DRLs that define your presence.</p>
+    </div>
+    <div class="feature">
+      <h3>Powerful Engine</h3>
+      <p>1.2L Revotron Petrol Engine that offers thrilling performance.</p>
+    </div>
+    <div class="feature">
+      <h3>Top-notch Safety</h3>
+      <p>5-Star GNCAP rating with advanced safety features for peace of mind.</p>
+    </div>
+    <div class="feature">
+      <h3>Smart Technology</h3>
+      <p>Touchscreen infotainment, Android Auto & Apple CarPlay connectivity.</p>
+    </div>
+  </section>
+
+  <!-- SPECIFICATIONS -->
+  <section class="specs" id="specs">
+    <h2>Tata Punch Specifications</h2>
+    <table class="spec-table">
+      <tr><th>Engine</th><td>1.2L Revotron Petrol Engine</td></tr>
+      <tr><th>Power</th><td>86 PS @ 6000 rpm</td></tr>
+      <tr><th>Torque</th><td>113 Nm @ 3300 rpm</td></tr>
+      <tr><th>Transmission</th><td>5-Speed Manual / AMT</td></tr>
+      <tr><th>Mileage</th><td>20.09 km/l</td></tr>
+      <tr><th>Boot Space</th><td>366 Litres</td></tr>
+      <tr><th>Safety Rating</th><td>5 Star (Global NCAP)</td></tr>
+    </table>
+  </section>
+
+  <!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <h2>Tata Punch Gallery</h2>
+  <div class="gallery-grid">
+    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Punch/9623/1762425519212/front-view-118.jpg?tr=w-420" alt="Front View">
+    <img src="https://stimg.cardekho.com/images/carexteriorimages/930x620/Tata/Punch/9623/1762425519212/rear-left-view-121.jpg?tr=w-420" alt="Rear View">
+    <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425702890/center-console-55.jpg?tr=w-420" alt="Interior">
+    <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425702890/dashboard-59.jpg?tr=w-420" alt="Dashboard">
+    <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425702890/door-view-of-driver-seat-51.jpg?tr=w-420" alt="Seats">
+    <img src="https://stimg.cardekho.com/images/carinteriorimages/930x620/Tata/Punch/9623/1762425702890/steering-wheel-54.jpg?tr=w-420" alt="Steering Wheel">
+  </div>
+</section>
+
+  
+
+  <!-- TEST DRIVE FORM -->
+  <section class="test-drive" id="test-drive">
+    <h2>Book a Test Drive</h2>
+    <form id="testDriveForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="date" required>
+      <select required>
+        <option value="">Select City</option>
+        <option>Mumbai</option>
+        <option>Delhi</option>
+        <option>Bangalore</option>
+        <option>Chennai</option>
+        <option>Kolkata</option>
+      </select>
+      <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+  </section>
+  <!-- CONTACT SECTION -->
+  <section class="contact" id="contact">
+    <h2>Contact & Customer Support</h2>
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>Get in Touch</h3>
+        <p><strong>Showroom Address:</strong> Tata Motors, Connaught Place, New Delhi – 110001</p>
+        <p><strong>Phone:</strong> +91 98765 43210</p>
+        <p><strong>Email:</strong> support@tatamotors.com</p>
+        <p><strong>Working Hours:</strong> Mon – Sat | 9:00 AM – 7:00 PM</p>
+      </div>
+
+      <div class="contact-form">
+        <h3>Send Us a Message</h3>
+        <form id="contactForm">
+          <input type="text" id="name" placeholder="Full Name" required>
+          <input type="email" id="email" placeholder="Email Address" required>
+          <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © 2025 Tata Motors Ltd. | Designed by Ayush Kumar
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
